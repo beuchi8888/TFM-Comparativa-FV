@@ -1,0 +1,42 @@
+# ============================================================
+# TFM — Predicción de producción fotovoltaica multi-planta
+# Python 3.10+
+# ============================================================
+
+# --- Núcleo científico ---
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scipy>=1.11
+
+# --- Machine learning ---
+scikit-learn>=1.3
+lightgbm>=4.0
+xgboost>=2.0
+catboost>=1.2
+
+# --- Persistencia de modelos ---
+joblib>=1.3
+
+# --- Visualización ---
+matplotlib>=3.7
+plotly>=5.15
+seaborn>=0.12
+
+# --- Series temporales y estadística ---
+statsmodels>=0.14
+
+# --- Descarga de datos meteorológicos ---
+requests>=2.31
+
+# --- Horas solares (notebook 00) ---
+astral>=3.2
+
+# --- Scraping Weather Underground (notebook 00) ---
+selenium>=4.15
+
+# --- Barras de progreso ---
+tqdm>=4.65
+
+# --- Notebooks ---
+jupyter>=1.0
+ipykernel>=6.25

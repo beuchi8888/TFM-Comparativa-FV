@@ -1,0 +1,80 @@
+
+# ============================================================
+# .gitignore — TFM-Comparativa-FV
+# ============================================================
+
+# --- Datos (privados o generados por el pipeline) -----------
+data/raw/
+data/external/
+data/processed/
+data/splits/
+data/models/
+data/results/
+
+# --- Configuracion local de rutas ---------------------------
+utils/config.py
+
+# --- Entornos virtuales -------------------------------------
+.venv/
+venv/
+env/
+.conda/
+
+# --- Python -------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.so
+
+# --- Jupyter ------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- IDEs ---------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# --- macOS --------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Windows ------------------------------------------------
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# --- Variables de entorno -----------------------------------
+.env
+.env.local
+.env.*
+
+# --- Logs ---------------------------------------------------
+*.log
+
+# --- Datos (privados o generados por el pipeline) --------------------------------------------------
+.env
+config.py
+data/raw/
+data/external/
+data/processed/
+data/splits/
+data/models/
+data/results/
+models/
+__pycache__/
+*.pyc
+*.joblib
+.ipynb_checkpoints/
+RESULTS_*/
+DATOS_WUNDERGROUND/
+correlation_values/
+*.bak
