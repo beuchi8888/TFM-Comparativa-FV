@@ -149,6 +149,7 @@ Todos los modelos se evalúan con los mismos datos, las mismas features y las mi
 - **Bias** — Error sistemático medio (en p. u y en kW)
 
 Todas las métricas se calculan también restringuidas a **horas de producción** (`power_pu > 0`) para evitar el sesgo optimista que introduce la noche, donde la predicción de cero es trivialmente correcta.
+
 per-unit = p.u = (`power_pu = power_KW / nominal_kW`)
 
 ---
