@@ -143,13 +143,13 @@ Todos los modelos se evalúan con los mismos datos, las mismas features y las mi
 
 ## Métricas de evaluación
 
-- **MAE** — Error absoluto medio (en kW)
-- **RMSE** — Raíz del error cuadrático medio (en kW)
+- **MAE** — Error absoluto medio (en p.u y en kW)
+- **RMSE** — Raíz del error cuadrático medio (en p.u y en kW)
 - **R²** — Coeficiente de determinación
-- **Bias** — Error sistemático medio (en kW)
+- **Bias** — Error sistemático medio (en p. u y en kW)
 
 Todas las métricas se calculan también restringidas a **horas de producción** (`power_pu > 0`) para evitar el sesgo optimista que introduce la noche, donde la predicción de cero es trivialmente correcta.
-
+per-unit = p.u = (`power_pu = power_kW / nominal_kW`)
 ---
 
 ## Experimentos
